@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <files>
+        <in>C:/Bordero/in</in>
+        <out>C:/Bordero/out</out>
+        <error>C:/Bordero/error</error>
+        <log>C:/Bordero/boko.log</log>
+        <bak>C:/Bordero/backup</bak>
+    </files>
+    <repeat>10</repeat>
+    <enhancedMode>enable</enhancedMode>
+    <ftp>
+        <ip>192.168.0.1</ip>
+        <indir>/home/bu/dist/testa/</indir>
+        <outdir>/home/bu/dist/testa/</outdir>
+        <user>toor</user>
+        <password>ASDF</password>
+        <ssl>false</ssl>
+    </ftp>
+</root>

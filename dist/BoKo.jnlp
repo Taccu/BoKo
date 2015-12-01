@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BoKo.jnlp">
+  <information>
+    <title>BoKo</title>
+    <vendor>Nightstalker</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BoKo.jar" size="34722" download="eager" />
+    <jar href="lib\UndecoratorBis.jar" size="187650" download="eager" />
+    <jar href="lib\commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="lib\commons-net-3.3.jar" size="280983" download="eager" />
+    <jar href="lib\mail.jar" size="494975" download="eager" />
+    <jar href="lib\truezip-samples-7.7.9-jar-with-dependencies.jar" size="5680310" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BoKo" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="boko.BoKo"  name="BoKo" />
+  <update check="always"/>
+</jnlp>
